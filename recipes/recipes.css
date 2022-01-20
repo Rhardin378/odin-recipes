@@ -1,24 +1,69 @@
+#home_heading {
+    font-size: 3em;
+}
+#recipes {
+    text-align: center;
+    list-style-type: none;
+    padding: 0px;
+    font-size: 2em;
+}
 
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
 
 body {
-    background-color: rgb(43, 164, 180);
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+
+}
+ul {
+    padding-left: 10px;
 }
 
-#chicken {
-    height:500px;
-    width: 500px; 
+ol {
+    padding-left: 10px;
 }
+#chicken {
+    height:auto;
+    width: 500px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
 
 #curry {
-    height: 500px;
+    height: auto;
     width: 500px;
-}
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
 
 li {
     margin: 5px;
 }
 
 #sausage {
-    height: 500px;
+    height: auto;
     width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  h1 {
+      text-align: center;
+  }
+ h2 {
+    background-color: rgb(223, 75, 75);
+    text-align: center;
+}
+
+p {
+    font-size: large;
 }
